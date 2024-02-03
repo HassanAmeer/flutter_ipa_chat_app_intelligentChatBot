@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "142434808132",
+    "firebase_url": "https://intelligence-personal-advisor-default-rtdb.firebaseio.com",
+    "project_id": "intelligence-personal-advisor",
+    "storage_bucket": "intelligence-personal-advisor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142434808132:android:b657a7ea7dc4682f2b6711",
+        "android_client_info": {
+          "package_name": "com.ipa.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMRt1UawxAG8LNGzh-aFwhOGrOzLCv370"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142434808132:android:954c47b451e3f8182b6711",
+        "android_client_info": {
+          "package_name": "com.ipa.chatbot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMRt1UawxAG8LNGzh-aFwhOGrOzLCv370"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
