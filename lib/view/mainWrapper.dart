@@ -3,7 +3,7 @@ import 'package:chatapp/services/theme.dart';
 import 'package:chatapp/utils/colors.dart';
 import 'package:chatapp/view/chatscreen.dart';
 import 'package:chatapp/view/emptychathistory.dart';
-import 'package:chatapp/view/emptychathistory2.dart';
+// import 'package:chatapp/view/emptychathistory2.dart';
 import 'package:chatapp/view/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

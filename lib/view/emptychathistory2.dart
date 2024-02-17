@@ -1,5 +1,5 @@
 import 'package:chatapp/view/chatscreen.dart';
-import 'package:chatapp/view/settings.dart';
+// import 'package:chatapp/view/settings.dart';
 import 'package:flutter/material.dart';
 
 class EmptyChatHistory2 extends StatefulWidget {

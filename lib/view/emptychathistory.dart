@@ -177,7 +177,7 @@ class _EmptyChatState extends State<EmptyChat> {
                         controller: ScrollController(),
                         itemBuilder: (context, index) {
                           var message = chatByDate[index];
-                          String messageId = message['key'];
+                          // String messageId = message['key'];
                           int timestamp = message['timestamp'];
                           DateTime dateTime =
                               DateTime.fromMillisecondsSinceEpoch(timestamp);

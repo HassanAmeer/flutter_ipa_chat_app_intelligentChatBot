@@ -4,9 +4,9 @@ import 'package:chatapp/view/mainWrapper.dart';
 import 'package:chatapp/view/signUp.dart';
 import 'package:chatapp/widgets/loadingbox.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
+// import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:loading_animation_widget/loading_animation_widget.dart';
+// import 'package:loading_animation_widget/loading_animation_widget.dart';
 
 class SignIn extends StatefulWidget {
   const SignIn({super.key});
