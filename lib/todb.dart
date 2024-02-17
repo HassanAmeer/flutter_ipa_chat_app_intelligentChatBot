@@ -14,6 +14,9 @@ import "package:langchain/langchain.dart";
 import "dart:convert";
 
 import "package:langchain_openai/langchain_openai.dart";
+import "package:provider/provider.dart";
+
+import "getkey.dart";
 // import "package:langchain_pinecone/langchain_pinecone.dart";
 
 // const String openAiKey = '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';
@@ -21,7 +24,10 @@ import "package:langchain_openai/langchain_openai.dart";
 // String openAiKey = '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';
 // const String openAiKey = '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';
 // const String openAiKey = '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'; // undefined key
-const String openAiKey = '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';
+// const String openAiKey = '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';
+// const String openAiKey = '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';
+// const String openAiKey =
+//     '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'; //free api key
 const String pineconeKey = '2e13ee6b-e229-4546-a5e7-995b4bb809dd';
 
 // Modify the ChatMessage.system method to use user history for LangChain.
@@ -60,9 +66,10 @@ class GptApi {
     // print("👉 cone :$res ");
 
     //////////
+    final getKey = Provider.of<GetKey>(context, listen: false);
 
     try {
-      final pj = OpenAI(apiKey: openAiKey);
+      final pj = OpenAI(apiKey: getKey.apiKey);
       final messages = [
         ChatMessage.system(
             "first read this user history: context for answer related Question only if need from user chat history other wise own can answer but not say thats you can see chat history: ${hitory.toString()}"),

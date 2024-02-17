@@ -8,6 +8,7 @@ import 'package:flutter/scheduler.dart';
 // import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
+import 'getkey.dart';
 import 'services/theme.dart';
 
 void main() async {
@@ -30,7 +31,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
-      providers: [ChangeNotifierProvider<ThemeVmC>(create: (_) => ThemeVmC())],
+      providers: [
+        ChangeNotifierProvider<ThemeVmC>(create: (_) => ThemeVmC()),
+        ChangeNotifierProvider<GetKey>(create: (_) => GetKey()),
+      ],
       child: Consumer<ThemeVmC>(builder: (context, vmVal, child) {
         return MaterialApp(
           title: 'IPA',

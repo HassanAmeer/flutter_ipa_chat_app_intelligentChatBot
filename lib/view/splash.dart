@@ -5,6 +5,9 @@ import 'package:chatapp/view/mainWrapper.dart';
 import 'package:chatapp/view/signIn.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import '../getkey.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -25,6 +28,8 @@ class _SplashScreenState extends State<SplashScreen> {
             MaterialPageRoute(
                 builder: (context) =>
                     user == null ? const SignIn() : const MainWrapper())));
+    ///////
+    Provider.of<GetKey>(context, listen: false).getKeyVmF();
   }
 
   @override
