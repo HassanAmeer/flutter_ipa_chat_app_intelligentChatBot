@@ -1,4 +1,4 @@
-# chatapp
+# chat app
 A new Flutter project.
 
 <table style='border:none;width:100%'>
