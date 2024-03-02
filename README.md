@@ -12,35 +12,21 @@ A new Flutter project.
   <img style='width:100%;' src='img3.png'>
   </td>
    <td style='width:24%;'>
-  <img style='width:100%;' src='img4.png'>
+  <img style='width:100%;' src='img5.png'>
   </td>
 </table>
 <table style='border:none;width:100%'>
   <td style='width:24%;'>
-   <img style='width:100%;' src='img5.png'>
+   <img style='width:100%;' src='img6.png'>
   </td>
   <td style='width:24%;'>
-  <img style='width:100%;' src='img6.png'>
-  </td>
-   <td style='width:24%;'>
   <img style='width:100%;' src='img7.png'>
   </td>
    <td style='width:24%;'>
   <img style='width:100%;' src='img8.png'>
   </td>
-</table>
-<table style='border:none;width:100%'>
-  <td style='width:24%;'>
-   <img style='width:100%;' src='img9.png'>
-  </td>
-  <td style='width:24%;'>
-<!--   <img style='width:100%;' src='img6.png'> -->
-  </td>
    <td style='width:24%;'>
-<!--   <img style='width:100%;' src='img7.png'> -->
-  </td>
-   <td style='width:24%;'>
-<!--   <img style='width:100%;' src='img8.png'> -->
+  <img style='width:100%;' src='img9.png'>
   </td>
 </table>
 
